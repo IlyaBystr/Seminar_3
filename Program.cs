@@ -17,7 +17,7 @@ else
 */
 
 
-
+/*
 Console.Write("Введите координаты x1: ");
 double x1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите координаты x2: ");
@@ -32,3 +32,20 @@ Console.Write("Введите координаты z2: ");
 double z2 = Convert.ToDouble(Console.ReadLine());
 double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
 Console.WriteLine($"Расстояние между двумя точками в пространстве равно {distance}");
+*/
+
+Console.WriteLine("Введите число от 1");
+int a = int.Parse(Console.ReadLine()!);
+int i =1;
+while(i<=a)
+{
+    if (a>=1)
+    {
+    Console.WriteLine($"{Math.Pow(i, 3)}");
+    i++;
+    }
+    else
+    {
+        Console.WriteLine("Вы ввели не верное число");
+    }
+}
